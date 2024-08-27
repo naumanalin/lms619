@@ -294,5 +294,12 @@ fieldset{
     border: 1px solid gray;
 }
 
+.error-message {
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;     
+}
 
 
