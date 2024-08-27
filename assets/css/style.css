@@ -1,0 +1,298 @@
+
+
+/* resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --bg-primary: #805CD8 ;
+    --bg-secondary:#D9D9D9 ;
+    --bg-dark: #2C2E3E;
+
+    --primary-text: ;
+    --secondary-text: ;
+}
+
+
+/* utility class */
+/*  */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.my-10 {
+    margin: 10px 0;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+table {
+    width: 100%; 
+    border: 1.25px solid #000;
+    padding: 0px;
+    margin: 10px 0 0 0;
+}
+
+th, td {
+    padding: 5px 10px;
+}
+
+/* header*/
+
+.right-sidebar {
+    width: 240px;
+    height: 900px;
+    background-color: var(--bg-dark);
+    position: fixed;
+}
+
+nav {
+    width: calc(100% - 242px);
+    background-color: #fff;
+    position: relative;
+    left: 250px;
+}
+
+.right-sidebar {
+    padding: 15px 5px;
+    text-align: center;
+}
+
+#burger img {
+    width: 45px;
+    height: 45px;
+}
+
+.menu-item {
+    margin-bottom: 70px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu-img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-title {
+    font-size: 1.75rem;
+}
+
+/* nav */
+
+.usericon img {
+    width: 40px;
+    height: 40px;
+}
+
+.logout-btn {
+    background-color: var(--bg-primary);
+    border: none;
+    overflow: none;
+    padding: 3px 5px;
+    cursor: pointer;
+    color:#fff;
+    border-radius: 5px;
+    transition: background-color 0.1s ease-out;
+}
+
+.logout-btn:hover {
+    background-color: var(--bg-dark);
+}
+/* all page uniform structure */
+
+.page-content {
+    position: absolute;
+    top: 114px;
+    left: 290px;
+    width: 900px;
+}
+/* home page */
+
+.all-courses  {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.course-item {
+    width: calc(50% - 50px);
+    margin: 0;
+    padding: 0;
+}
+
+.course-head {
+    background-color: var(--bg-primary);
+    padding: 7px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-head h3 {
+    color: #fff;
+}
+
+.chead-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.course-body {
+    background-color: var(--bg-secondary);
+    padding: 20px 10px 40px 10px;
+}
+
+.course-body  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+
+.course-body  a:hover {
+    text-decoration: underline;
+}
+
+.cbody-icon {
+    width: 120px;
+    height: 150px;
+}
+    
+
+/* login page */
+
+.tl-50 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form,
+.loginimage {
+    width: calc(50% - 15px);
+}
+
+.logo-wrapper {
+    text-align: center;
+    width: 320px;
+    margin-bottom: 30px;
+ }
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+input.form-control {
+    width: 320px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.login-group {
+    text-align: end;
+    padding-right: 25px;
+}
+
+.login-btn {
+    font-size: 26px ;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #5867DD;
+    cursor: pointer;
+}
+                       
+.loginimage img {
+    max-width: 420px;
+    height: auto;
+}
+
+.loginimage {
+    padding: 4% 11%;
+}
+
+/* table */
+
+th, td {
+    border: 1px solid gray;
+}
+
+/* fieldset */
+fieldset{ 
+    padding: 10px;
+    align-items: center;
+    gap: 15px;
+}
+
+.detail-group {
+    margin: 10px 0;
+}
+
+/* Admin panel */
+
+.addStdform,
+.editform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-profile-img {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.admin-ass-fields {
+    padding: 10px;
+    border-radius: 7px;
+    width: 300px;
+    border: 1px solid gray;
+}
+
+
+
